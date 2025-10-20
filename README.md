@@ -8,8 +8,6 @@ Uygulamanın çalışan versiyonuna aşağıdaki linkten ulaşabilirsiniz:
 
 [**➡️ UYGULAMAYI ZİYARET ET**](https://www.google.com/search?q=... "null") `<!-- Buraya Streamlit Cloud veya Hugging Face Spaces linkinizi ekleyin -->`
 
-
-
 ![](C:\Users\samet\AppData\Roaming\marktext\images\2025-10-20-11-52-23-image.png)
 
 ## 🎯 Projenin Amacı
@@ -62,11 +60,11 @@ Geliştirilen chatbot, kendisine sağlanan Wikipedia verileri dahilinde aşağı
 
 > **👤 Kullanıcı:** Leonardo da Vinci kimdir?
 > 
-> **🤖 Chatbot:** Leonardo da Vinci, Rönesans dönemi İtalyan mimarı, mühendisi, mucidi, matematikçisi, anatomisti, müzisyeni, heykeltıraşı ve ressamıdır. Rönesans döneminde yaşamış İtalyan hezârfen, döneminin önemli bir filozofu, astronomu, mimarı, mühendisi, mucidi, matematikçisi, anatomisti, müzisyeni, heykeltıraşı, botanisti, jeoloğu, kartografı, yazarı ve ressamıdırhttps://www.google.com/search?q=...
+> **🤖 Chatbot:** Leonardo da Vinci, Rönesans dönemi İtalyan mimarı, mühendisi, mucidi, matematikçisi, anatomisti, müzisyeni, heykeltıraşı ve ressamıdır. Rönesans döneminde yaşamış İtalyan hezârfen, döneminin önemli bir filozofu, astronomu, mimarı, mühendisi, mucidi, matematikçisi, anatomisti, müzisyeni, heykeltıraşı, botanisti, jeoloğu, kartografı, yazarı ve ressamıdır.
 
 > **👤 Kullanıcı:** Galata Kulesi'nin tarihi hakkında bilgi verir misin?
 > 
-> **🤖 Chatbot:** Galata Kulesi, 528 yılında Bizans İmparatoru Anastasius tarafından inşa edilmiştir. 1204 yılında 4. Haçlı Seferleri ile büyük ölçüde tahrip olmuş, 1348 yılında İsa Kulesi olarak Cenevizliler tarafından Galata Surlarına tekrar ek olarak yapılmıştırhttps://www.google.com/search?q=...
+> **🤖 Chatbot:** Galata Kulesi, 528 yılında Bizans İmparatoru Anastasius tarafından inşa edilmiştir. 1204 yılında 4. Haçlı Seferleri ile büyük ölçüde tahrip olmuş, 1348 yılında İsa Kulesi olarak Cenevizliler tarafından Galata Surlarına tekrar ek olarak yapılmıştır.
 
 **Sınırları Test Eden Cevap Örneği:**
 
@@ -114,13 +112,3 @@ Bu projeyi kendi lokal makinenizde çalıştırmak için aşağıdaki adımları
    ```
    
    Uygulama `http://localhost:8501` adresinde açılacaktır.
-
-## 🎬 Ürün Kullanım Kılavuzu
-
-Uygulama başlatıldığında, sizi basit bir sohbet arayüzü karşılayacaktır.
-
-1. Sayfanın alt kısmında bulunan "Sorunuzu buraya yazabilirsinizhttps://www.google.com/search?q=..." metin kutusuna merak ettiğiniz konuyu yazın.
-
-2. Enter'a basın veya sağdaki gönder ikonuna tıklayın.
-
-3. Chatbot, "Düşünüyorumhttps://www.google.com/search?q=..." mesajını gösterdikten sonra Wikipedia'dan bulduğu bilgilerle oluşturduğu cevabı ekrana yazdıracaktır.

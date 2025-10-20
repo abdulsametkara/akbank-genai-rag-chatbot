@@ -1,0 +1,35 @@
+Sanal Ortam Klasörü
+
+Bu klasör, projeye özgü kütüphaneleri içerir ve her makinede yeniden oluşturulur.
+
+venv/
+
+Hassas Bilgileri İçeren Dosya
+
+Bu dosya API anahtarını içerdiği için KESİNLİKLE paylaşılmamalıdır.
+
+.env
+
+Oluşturulan Büyük Dosyalar ve Klasörler
+
+Bu dosyalar Colab'da oluşturulur ve çok büyük oldukları için repoya eklenmezler.
+
+faiss_index_wikipedia/
+faiss_index_wikipedia.zip
+
+Streamlit Konfigürasyon Klasörü
+
+Bu klasör, secrets.toml gibi yerel ayarları içerebilir.
+
+.streamlit/
+
+Python Önbellek Dosyaları
+
+Python'un hızı artırmak için otomatik olarak oluşturduğu geçici dosyalardır.
+
+pycache/
+*.pyc
+
+Jupyter Notebook Kontrol Noktaları
+
+.ipynb_checkpoints

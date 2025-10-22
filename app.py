@@ -141,11 +141,11 @@ def wiki_retrieve(query: str, max_chars: int = 4000) -> str:
         return ""
 
 def answer_with_wiki(query: str) -> str:
+    # Wikipedia'dan bağlamı çek
     ctx = wiki_retrieve(query)
-    prompt_input = {"context": ctx, "input": query}
-    chain = create_stuff_documents_chain(llm, prompt)
-    # create_stuff_documents_chain belge bekler; bu nedenle direkt model çağırıyoruz:
-    final_prompt = prompt.format(context=ctx, input=query).to_string()  # string prompt
+    # Promptu düz string olarak oluştur
+    final_prompt = prompt_template_str.format(context=ctx, input=query)
+    # Gemini'yi string ile çağır
     resp = llm.invoke(final_prompt)
     return resp.content if hasattr(resp, "content") else str(resp)
 

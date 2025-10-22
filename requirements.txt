@@ -6,3 +6,5 @@ google-generativeai==0.8.5
 datasets==4.0.0
 sentence-transformers==5.1.1
 faiss-cpu
+requests
+wikipedia
